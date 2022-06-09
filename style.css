@@ -1,0 +1,35 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: antiquewhite;    
+}
+
+label {
+    width:300px;
+    display: inline-block;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    width: 100px;
+    height: 28px;
+    border-color: white;
+    background-color: #e0bf69;
+}
+
+button:hover {
+    transition: ease-in 0.15s;
+    background-color: #f2bc33;
+}
+
+#ppp, #pppp {
+    font-weight: bold;
+}
